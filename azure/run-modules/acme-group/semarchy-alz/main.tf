@@ -11,15 +11,15 @@ VmssSubnet          10.126.1.0/27   10.126.1.0  ->  10.126.1.31    32
 */
 
 module "comma-group" {
-  source = "../../../modules/comma-group/semarchy-alz"
+  source = "../../../modules/acme/acme-alz"
   company_man_group_name      = "acme" 
-  subscription_id             = "d4e9e8b9-0299-41db-8666-80b5b30ea96a"
+  subscription_id             = "xxx"
   location                    = "uk south"
   environment_tag             = "prod"
-  function_tag                = "Semarchy"
+  function_tag                = "Application"
   customer_tag                = "acme"
-  project_tag                 = "Semarchy"
-  owner_tag                   = "Comma-Group"
+  project_tag                 = "Project1"
+  owner_tag                   = "acme-group"
   costcentre_tag              = "3321"
 
   vnet_resource_group         = "rg-prd-uks-net-01"
