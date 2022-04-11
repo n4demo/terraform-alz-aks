@@ -1,5 +1,5 @@
 
-module "comma-group" {
+module "acme-group" {
   source = "../../../modules/default-lz-templates"
   company_man_group_name      = "acme" 
   subscription_id             = "xxxxx"
