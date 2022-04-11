@@ -1,4 +1,4 @@
-# Deploying Azure Landing Zone to comma-group customers subscription
+# Deploying Landing Zone and AKS to Azure
 
 ## Audience
 Developers, Solution Architects
